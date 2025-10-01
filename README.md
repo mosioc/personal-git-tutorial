@@ -46,16 +46,26 @@ git blame <file>         # View file history
 ```
 
 Common commit types:
-| Type       | Purpose                                      |
-| ---------- | -------------------------------------------- |
-| `feat`     | Introduces a new feature                     |
-| `fix`      | Fixes a bug                                  |
-| `docs`     | Updates documentation                        |
-| `style`    | Code style changes (formatting, linting)     |
-| `refactor` | Code restructuring without changing behavior |
-| `test`     | Adds or modifies tests                       |
-| `chore`    | Maintenance tasks (e.g., dependency updates) |
-| `perf`     | Performance improvements                     |
+# Conventional Commits Cheat Sheet
+
+| Type       | Description                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| `feat`     | Introduces a new feature                                                    |
+| `fix`      | Fixes a bug                                                                |
+| `docs`     | Updates documentation                                                      |
+| `style`    | Code style changes (formatting, linting, whitespace)                        |
+| `refactor` | Code restructuring without changing external behavior                     |
+| `test`     | Adds or modifies tests                                                     |
+| `chore`    | Maintenance tasks (e.g., dependency updates, build scripts)                |
+| `perf`     | Performance improvements                                                   |
+| `build`    | Changes that affect the build system or external dependencies             |
+| `ci`       | Changes to CI configuration or scripts                                     |
+| `revert`   | Reverts a previous commit                                                 |
+| `wip`      | Work in progress (temporary commit not ready for production)              |
+| `hotfix`   | Quick fixes for production issues                                          |
+| `deps`     | Updates or manages dependencies                                           |
+| `merge`    | Merge commits from one branch to another                                   |
+
 
 Examples:
 ```
@@ -529,5 +539,6 @@ Feel free to contribute to this repository by:
 4. Submitting a pull request
 
 ## 📝 License
+
 
 This project is open source and available under the MIT License. 
