@@ -46,8 +46,6 @@ git blame <file>         # View file history
 ```
 
 Common commit types:
-# Conventional Commits Cheat Sheet
-
 | Type       | Description                                                                 |
 |------------|-----------------------------------------------------------------------------|
 | `feat`     | Introduces a new feature                                                    |
@@ -542,3 +540,4 @@ Feel free to contribute to this repository by:
 
 
 This project is open source and available under the MIT License. 
+
